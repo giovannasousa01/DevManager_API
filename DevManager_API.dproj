@@ -179,6 +179,9 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="models\connection.model.pas"/>
+        <DCCReference Include="models\Worker.Model.pas"/>
+        <DCCReference Include="controllers\Worker.Controller.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
