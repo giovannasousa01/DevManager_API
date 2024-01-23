@@ -6,23 +6,29 @@ program DevManager_API;
 
 uses
   System.SysUtils,
-  Horse, // Import the Horse framework for building RESTful web services...
-  Horse.Jhonson, // Import Horse middleware for JSON support...
-  connection.model in 'models\connection.model.pas', // Import the connection model...
-  Worker.Model in 'models\Worker.Model.pas', // Import the Worker model...
-  Worker.Controller in 'controllers\Worker.Controller.pas'; // Import the Worker controller...
+  Horse,
+  Horse.Jhonson,
+  connection.model in 'models\connection.model.pas',
+  Worker.Model in 'models\Worker.Model.pas',
+  Worker.Controller in 'controllers\Worker.Controller.pas',
+  Customer.Model in 'models\Customer.Model.pas',
+  Customer.Controller in 'controllers\Customer.Controller.pas';
+
+// Import the Worker controller...
 
 begin
     // Configure Horse to use the Jhonson middleware for JSON support...
     THorse.Use(Jhonson());
 
-    // Register the Worker controller with the application...
-    Worker.controller.Registry;
+    // Register the controllers with the application...
+    Worker.Controller.Registry;
+    Customer.Controller.Registry;
 
     // Start the Horse server and listen on port 9000...
     THorse.Listen(9000, procedure
     begin
         // Display a message indicating that the server is running...
         Writeln('Server is running on port: ' + Thorse.Port.ToString);
+        Writeln('------ LOG ------');
     end);
 end.
