@@ -14,8 +14,6 @@ uses
   Customer.Model in 'models\Customer.Model.pas',
   Customer.Controller in 'controllers\Customer.Controller.pas';
 
-// Import the Worker controller...
-
 begin
     // Configure Horse to use the Jhonson middleware for JSON support...
     THorse.Use(Jhonson());
