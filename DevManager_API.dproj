@@ -166,6 +166,12 @@
         <DCCReference Include="controllers\Worker.Controller.pas"/>
         <DCCReference Include="models\Customer.Model.pas"/>
         <DCCReference Include="controllers\Customer.Controller.pas"/>
+        <DCCReference Include="models\Equipment.Model.pas"/>
+        <DCCReference Include="controllers\Equipment.Controller.pas"/>
+        <DCCReference Include="models\Repair.Model.pas"/>
+        <DCCReference Include="controllers\Repair.Controller.pas"/>
+        <DCCReference Include="models\Borrow.Model.pas"/>
+        <DCCReference Include="controllers\Borrow.Controller.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -16,5 +16,39 @@
     <Transaction>2023/12/28 14:23:20.000.037,D:\DevManager_API\Unit1.pas=D:\DevManager_API\models\Customer.Model.pas</Transaction>
     <Transaction>2023/12/29 09:22:44.000.365,=D:\DevManager_API\Unit1.pas</Transaction>
     <Transaction>2023/12/29 09:23:00.000.466,D:\DevManager_API\Unit1.pas=D:\DevManager_API\controllers\Customer.Controller.pas</Transaction>
+    <Transaction>2024/01/23 10:58:28.000.109,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/23 10:58:57.000.594,D:\Programmation\DevManager_API\models\Equipment.Model.pas=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/24 07:33:51.000.979,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/24 07:34:21.000.734,D:\Programmation\DevManager_API\Unit1.pas=D:\Programmation\DevManager_API\controllers\Equipment.Controller.pas</Transaction>
+    <Transaction>2024/01/25 09:17:42.000.414,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 09:22:07.000.331,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 09:24:49.000.657,D:\Programmation\DevManager_API\Unit1.pas=D:\Programmation\DevManager_API\models\Repair.Model.pas</Transaction>
+    <Transaction>2024/01/29 16:48:05.000.074,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 16:48:23.000.713,D:\Programmation\DevManager_API\Unit1.pas=D:\Programmation\DevManager_API\controllers\Repair.Controller.pas</Transaction>
+    <Transaction>2024/02/07 09:49:43.000.550,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/07 09:50:06.000.129,D:\Programmation\DevManager_API\models\Borrow.Model.pas=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/09 09:33:26.000.458,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/09 09:34:00.000.225,D:\Programmation\DevManager_API\controllers\Borrow.Controller.pas=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/22 08:10:55.063,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/22 08:11:09.035,D:\Programmation\DevManager_API\models\Database.Model.pas=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/22 08:35:01.395,=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/22 08:35:14.637,D:\Programmation\DevManager_API\controllers\Database.Controller.pas=D:\Programmation\DevManager_API\Unit1.pas</Transaction>
+    <Transaction>2024/02/22 09:02:53.434,D:\Programmation\DevManager_API\controllers\Database.Controller.pas=</Transaction>
+    <Transaction>2024/02/22 09:02:57.263,D:\Programmation\DevManager_API\models\Database.Model.pas=</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="controllers"/>
+    <File Path="controllers\Customer.Controller.pas"/>
+    <File Path="controllers\Worker.Controller.pas"/>
+    <File Path="controllers\Equipment.Controller.pas"/>
+    <File Path="controllers\Repair.Controller.pas"/>
+    <File Path="controllers\Borrow.Controller.pas"/>
+    <File Path="models"/>
+    <File Path="models\connection.model.pas"/>
+    <File Path="models\Customer.Model.pas"/>
+    <File Path="models\Equipment.Model.pas"/>
+    <File Path="models\Worker.Model.pas"/>
+    <File Path="models\Repair.Model.pas"/>
+    <File Path="models\Borrow.Model.pas"/>
+  </ProjectSortOrder>
 </BorlandProject>
