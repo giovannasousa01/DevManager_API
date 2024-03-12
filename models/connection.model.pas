@@ -37,7 +37,7 @@ begin
     try
         // Set up PostgreSQL database connection parameters...
         FConn.Params.DriverID := 'PG';
-        FConn.Params.Database := 'DevManager_API';
+        FConn.Params.Database := 'dev_manager_api';
         FConn.Params.UserName := 'postgres';
         FConn.Params.Password := '.Punk4ever';
         FConn.Params.Add('Port=5432');
